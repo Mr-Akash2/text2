@@ -1,0 +1,103 @@
+    #bg {
+        background-color: rgb(245, 244, 244);
+    }
+    
+    #login button {
+        border-radius: 8px;
+        font-weight: 400;
+        font-family: arial;
+        letter-spacing: 0.5px;
+    }
+    
+    #main p {
+        font-weight: 500;
+    }
+    
+    #main input {
+        background-color: rgb(233, 233, 233);
+        border-radius: 9px;
+        border: none;
+        width: 470px;
+    }
+    
+    #main button {
+        border-radius: 8px;
+        font-weight: 400;
+        font-family: arial;
+        letter-spacing: 0.5px;
+    }
+    
+    .main {
+        margin: 20px;
+    }
+    
+    #res input {
+        background-color: rgb(233, 233, 233);
+        border-radius: 9px;
+        border: none;
+        width: 640px;
+    }
+    
+    #res button {
+        border-radius: 8px;
+        font-weight: 400;
+        font-family: arial;
+        letter-spacing: 0.5px;
+    }
+    
+    #name h4 {
+        background-color: #0d6efd;
+        display: inline;
+        padding: 9px 10px;
+        border-radius: 100%;
+        color: white;
+        font-weight: 400;
+    }
+    
+    #card1 {
+        border-radius: 0px;
+        border: none;
+    }
+    
+    #table thead {
+        background-color: rgb(233, 233, 233);
+        border-bottom: white;
+    }
+    
+    .tby {
+        border-bottom: 1px solid rgb(233, 233, 233);
+        font-weight: 550;
+    }
+    
+    #table1 thead {
+        background-color: rgb(233, 233, 233);
+        border-bottom: white;
+    }
+    
+    .tableBody {
+        font-weight: 550;
+    }
+    
+    #card2 {
+        border-radius: 30px;
+        border: none;
+        height: 100vh;
+    }
+    
+    @media (max-width:768px) {
+        #main input {
+            width: 230px;
+        }
+        #main img {
+            width: 250px;
+        }
+        #res input {
+            width: 200px;
+        }
+        /* #main button {
+            border-radius: 8px;
+            font-weight: 400;
+            font-family: arial;
+            letter-spacing: 0.5px;
+        } */
+    }
